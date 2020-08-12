@@ -13,6 +13,10 @@
 		E7C9CF9724E404AF0096923C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7C9CF9524E404AF0096923C /* Main.storyboard */; };
 		E7C9CF9924E404B40096923C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7C9CF9824E404B40096923C /* Assets.xcassets */; };
 		E7C9CF9C24E404B40096923C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7C9CF9A24E404B40096923C /* LaunchScreen.storyboard */; };
+		E7C9CFA424E404E40096923C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C9CFA324E404E40096923C /* DetailViewController.swift */; };
+		E7C9CFA624E404F80096923C /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C9CFA524E404F80096923C /* Data.swift */; };
+		E7C9CFAA24E405010096923C /* CafeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7C9CFA824E405010096923C /* CafeTableViewCell.xib */; };
+		E7C9CFAB24E405010096923C /* CafeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C9CFA924E405010096923C /* CafeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		E7C9CF9824E404B40096923C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7C9CF9B24E404B40096923C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7C9CF9D24E404B40096923C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7C9CFA324E404E40096923C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E7C9CFA524E404F80096923C /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		E7C9CFA824E405010096923C /* CafeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CafeTableViewCell.xib; sourceTree = "<group>"; };
+		E7C9CFA924E405010096923C /* CafeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CafeTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +67,24 @@
 				E7C9CF8F24E404AF0096923C /* AppDelegate.swift */,
 				E7C9CF9124E404AF0096923C /* SceneDelegate.swift */,
 				E7C9CF9324E404AF0096923C /* ViewController.swift */,
+				E7C9CFA324E404E40096923C /* DetailViewController.swift */,
+				E7C9CFA524E404F80096923C /* Data.swift */,
+				E7C9CFA724E405010096923C /* XIB */,
 				E7C9CF9524E404AF0096923C /* Main.storyboard */,
 				E7C9CF9824E404B40096923C /* Assets.xcassets */,
 				E7C9CF9A24E404B40096923C /* LaunchScreen.storyboard */,
 				E7C9CF9D24E404B40096923C /* Info.plist */,
 			);
 			path = CafeMap;
+			sourceTree = "<group>";
+		};
+		E7C9CFA724E405010096923C /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				E7C9CFA824E405010096923C /* CafeTableViewCell.xib */,
+				E7C9CFA924E405010096923C /* CafeTableViewCell.swift */,
+			);
+			path = XIB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +145,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7C9CFAA24E405010096923C /* CafeTableViewCell.xib in Resources */,
 				E7C9CF9C24E404B40096923C /* LaunchScreen.storyboard in Resources */,
 				E7C9CF9924E404B40096923C /* Assets.xcassets in Resources */,
 				E7C9CF9724E404AF0096923C /* Main.storyboard in Resources */,
@@ -138,9 +159,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7C9CFAB24E405010096923C /* CafeTableViewCell.swift in Sources */,
 				E7C9CF9424E404AF0096923C /* ViewController.swift in Sources */,
+				E7C9CFA624E404F80096923C /* Data.swift in Sources */,
 				E7C9CF9024E404AF0096923C /* AppDelegate.swift in Sources */,
 				E7C9CF9224E404AF0096923C /* SceneDelegate.swift in Sources */,
+				E7C9CFA424E404E40096923C /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
